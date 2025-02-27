@@ -1,0 +1,83 @@
+body {
+    font-family: system-ui;
+    background: #999;
+    color: #000;
+    text-align: center;
+    height: 100vh;
+    padding-top: 50px;
+}
+
+#carro {
+    width: 400px;
+    height: 100px;
+    background-color: orange;
+    position: relative;
+    margin: 70px auto;
+    border-radius: 35px 0 0 0;
+    cursor: pointer;
+}
+
+#rodas div {
+    background-color: black;
+    width: 70px;
+    height: 70px;
+    border-radius: 10pc;
+    position: absolute;
+    bottom: -35px;
+}
+
+#rodas div:first-child {
+    left: 35px;
+}
+
+#rodas div:last-child {
+    right: 35px;
+}
+
+#farol {
+    width: 40px;
+    height: 30px;
+    background-color: gray;
+    position: relative;
+    border-radius: 50px 0 0 0;
+}
+
+#farol.farol-ligado {
+    background-color: yellow;
+}
+
+#circulo-volante {
+    position: absolute;
+    top: -30px;
+    left: 120px;
+    rotate: -30deg;
+    width: 5px;
+    height: 30px;
+    background-color: black;
+    border-radius: 10px;
+}
+
+#base-volante {
+    position: absolute;
+    top: -22px;
+    left: 108px;
+    rotate: 60deg;
+    width: 2px;
+    height: 30px;
+    background-color: black;
+    border-radius: 10px;
+}
+
+#farol-traseiro {
+    width: 40px;
+    height: 30px;
+    background-color: #b20521;
+    position: absolute;
+    right: 0px;
+    top: 20px;
+    border-radius: 50px 0 0 50px;
+}
+
+#farol-traseiro.farol-ligado {
+    background-color: red;
+}
